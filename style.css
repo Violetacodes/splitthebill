@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1486428128344-5413e434ad35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center ;
+    background-color:
+    #8bd3c9;
+    }
+    #container {
+        background-color: rgba(179, 212, 223, 0.9);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px;
+        height: 725px;
+        border-radius: 40px;
+       
+        }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px;
+        padding: 20px;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #e65ac7;
+        align-self: center;
+    }
+    input {
+
+        font-family: 'Montserrat', sans-serif;
+        padding: 5px;
+    }
+
+    #addTip {
+        background-color:#78DEC7;
+border: none;
+border-radius: 10px;
+padding: 5px;
+font-family: 'Montserrat', sans-serif;
+
+    }
+
+    #btn {
+        background-color: #e65ac7;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        }
+        
+#tip {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+}
+#showTotalAmountToPay{
+    display: flex;
+}
+    #billSplit, #totalTip, #totalAmount {
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color: #78DEC7;
+        color: white;
+    }
